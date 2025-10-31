@@ -2,7 +2,7 @@
   "name": "nft-marketplace",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gibcou.github.io/test-repository",
+  "homepage": "https://gibcou.github.io/nft-project-",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -27,7 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build:docs": "npm run build && rm -rf docs && mkdir -p docs && cp -R build/* docs/ && touch docs/.nojekyll",
+    "deploy:docs": "npm run build:docs && git add docs package.json && git commit -m \"deploy: update docs for GitHub Pages\" && git push"
   },
   "eslintConfig": {
     "extends": [
