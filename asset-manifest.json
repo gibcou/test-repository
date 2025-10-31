@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-repository/static/css/main.82a15a66.css",
-    "main.js": "/test-repository/static/js/main.f199ba4f.js",
+    "main.js": "/test-repository/static/js/main.c3cfcda4.js",
     "static/js/453.db9db4e1.chunk.js": "/test-repository/static/js/453.db9db4e1.chunk.js",
     "static/media/icofont.woff": "/test-repository/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/test-repository/static/media/icofont.9c33516aab48c61e3081.woff2",
@@ -25,11 +25,11 @@
     "index.html": "/test-repository/index.html",
     "static/media/ethereum.svg": "/test-repository/static/media/ethereum.df265e367364f285053a1285ad8d418d.svg",
     "main.82a15a66.css.map": "/test-repository/static/css/main.82a15a66.css.map",
-    "main.f199ba4f.js.map": "/test-repository/static/js/main.f199ba4f.js.map",
+    "main.c3cfcda4.js.map": "/test-repository/static/js/main.c3cfcda4.js.map",
     "453.db9db4e1.chunk.js.map": "/test-repository/static/js/453.db9db4e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82a15a66.css",
-    "static/js/main.f199ba4f.js"
+    "static/js/main.c3cfcda4.js"
   ]
 }
